@@ -1,0 +1,64 @@
+{
+  "_from": "@types/indy-sdk",
+  "_id": "@types/indy-sdk@1.16.7",
+  "_inBundle": false,
+  "_integrity": "sha512-jPAcVgjM3jmrLhUVeCqca6Uw1kWcGAdEWI/n7eiU5OfMNSjvweb13jA+1a3ZfioXB0ZPvBxkQRbDHL93fxT8YA==",
+  "_location": "/@types/indy-sdk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@types/indy-sdk",
+    "name": "@types/indy-sdk",
+    "escapedName": "@types%2findy-sdk",
+    "scope": "@types",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/indy-sdk/-/indy-sdk-1.16.7.tgz",
+  "_shasum": "ee8a14e0ef690d675fd173e2cae8abe933856fb7",
+  "_spec": "@types/indy-sdk",
+  "_where": "C:\\Users\\rdosp",
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Timo Glastra",
+      "url": "https://github.com/TimoGlastra"
+    },
+    {
+      "name": "Jakub Kočí",
+      "url": "https://github.com/jakubkoci"
+    },
+    {
+      "name": "Karim Stekelenburg",
+      "url": "https://github.com/karimStekelenburg"
+    }
+  ],
+  "dependencies": {
+    "buffer": "^6.0.0"
+  },
+  "deprecated": false,
+  "description": "TypeScript definitions for indy-sdk",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/indy-sdk",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/indy-sdk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/indy-sdk"
+  },
+  "scripts": {},
+  "typeScriptVersion": "3.7",
+  "types": "index.d.ts",
+  "typesPublisherContentHash": "de574d37cd19a3d7876c8414dfd48fbd790497e60f5c811fd5b4df8e2e0f0f4b",
+  "version": "1.16.7"
+}
