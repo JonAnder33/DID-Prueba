@@ -1,21 +1,68 @@
 class Wallet {
     constructor(name, key, key_derivation_method, storage_type, storage_config, storage_credentials) {
-
+    this._name = name;
+    this._key = key;
+    this._key_derivation_method = key_derivation_method;
+    this._storage_type = storage_type;
+    this._storage_config = storage_config;
+    this._storage_credentials = storage_credentials;     
+    }
+    get name(){
+        return this._name;
+    }
+    get key(){
+        return this._key;
+    }
+    get key_derivation_method(){
+        return this._key_derivation_method;
+    }
+    get storage_type(){
+        return this._storage_type;
+    }
+    get storage_config(){
+        return this._storage_config;
+    }
+    get storage_credentials(){
+        return this._storage_credentials;
     }
 }
 
 
+
 class Did {
     constructor(did, seed, method, metadata) {
-        
+    this._did = did;
+    this._seed = seed;
+    this._method = method;
+    this._metadata = metadata;   
+    }
+    get did(){
+        return this._did;
+    }
+    get seed(){
+        return this._seed;
+    }
+    get method(){
+        return this._method;
+    }
+    get metadata(){
+        return this._metadata;
     }
 } 
 
 class Pool {
     constructor(name, gen_txn_file) {
-        
+    this._name = name;
+    this._gen_txn_file = gen_txn_file;
     }
+    get name(){
+        return this._name;
+    }
+    get gen_txn_file(){
+        return this._gen_txn_file;
+    } 
 }
+
 
 /*
 wallet
